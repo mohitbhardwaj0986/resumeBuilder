@@ -15,6 +15,7 @@ function FormPage() {
   } = useForm();
   const SubmitHandler = (data) => {
     setFormData((prev) => [...prev, data]);
+    reset()
   };
   
  
